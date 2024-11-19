@@ -1,0 +1,25 @@
+{
+  "name": "pdf-tools",
+  "version": "1.0.0",
+  "description": "A Node.js library for merging and splitting PDF files",
+  "main": "src/index.js",
+  "bin": {
+    "pdf-tools": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pdf",
+    "merge",
+    "split",
+    "tools"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "commander": "^11.0.0",
+    "chalk": "^4.1.2"
+  }
+}
